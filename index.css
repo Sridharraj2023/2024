@@ -1,77 +1,79 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1{
+    background-color: beige;
+}
+.mb-3s{
     margin: 5px;
-    padding: 1px;
+    padding: 5px 0px 5px 0px;
 }
 
-.head-div{
+.first{
+    display: inline-block;
+}
+
+.last{
+    display: inline-block;
+}
+
+.checked {
+    color: orange;
+  }
+
+  .purchase{
+    background-color: rgb(228, 221, 221);
+    width: 5%;
+    height: 10%;
     text-align: center;
-    margin: 1px 5px 1px 5px;
-    background-color: rgb(128, 167, 241);    
-    height: 300px;
-    width: 99.5%;
-    display: flex;
-}
+    
+  }
 
-.profile-pic{
-
-   border-radius: 50%;
-   width: 200px;
-   height: 200px;
-    overflow: hidden;
-    margin: 25px auto;
-    border: 1px groove rgb(44, 42, 42);
-   
-}
-.first-div{
+  .service{
+    background-color: white;
+    width: 5%;
+    height: 10%;
     text-align: center;
-    font-size: large; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  }
 
-.main{
+  .overall{
+    background-color: rgb(228, 221, 221);
+    width: 5%;
+    height: 10%;
+    text-align: center;
+  }
 
-display: flex;
-flex-wrap: wrap;
-}
+  .buy{
+    background-color: rgb(228, 221, 221);
+    width: 10%;
+    height: 10%;
+    text-wrap: nowrap;
+    text-align: center;
+  }
+.recommend  
+{
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    text-wrap: nowrap;
+    text-align: center;
+  }
 
-.left{
-    flex: 1;
-    width: 45%;
-    height: 100%;
-    padding-left: 20px;
-    
-}
 
-.vl{
-    height: 100%;
-    margin-top: 25%;
-    border-left: 1px solid black;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top:0;
-    align-self: normal;
+  .company{
+    background-color: rgb(228, 221, 221);
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    text-wrap: nowrap;
+  }
 
-}
-.right{
-    flex: 1;
-    width: 45%;
-    height: 100%;
-    padding-left: 20px;
-}
+  *{
+    margin-top: 10px;
+    padding: 2px 5px 2px 5px ;
+  }
 
-h2{
-    background-color: rgb(128, 167, 241);
-    height: 30px;
-    width: 550px;
-    padding: 3px;
-    margin: 10px 0;
-   border-radius: 0 50px 50px 0;
-   display: inline-block;
-    position: relative;
-    left:1%;
-}
-    
- 
+  .first{
+    padding-left: 5%;
+  }
 
+  .last{
+    padding-left: 9.5%;
+  }
